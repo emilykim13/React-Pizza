@@ -59,8 +59,8 @@ class App extends Component {
     })
     .then(res => res.json())
     .then(updatedPizza => {
-      let prevPizzasArr = [...this.state.pizzas]
-      let newPizzasArr = prevPizzasArr.map(prevPizza => prevPizza.id === updatedPizza.id ? updatedPizza : prevPizza)
+      // let prevPizzasArr = [...this.state.pizzas]
+      let newPizzasArr = this.state.pizzas.map(prevPizza => prevPizza.id === updatedPizza.id ? updatedPizza : prevPizza)
       this.setState({
         pizzas: newPizzasArr,
         id: "",

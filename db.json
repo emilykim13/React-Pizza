@@ -3,26 +3,26 @@
     {
       "id": 1,
       "topping": "Plain",
-      "size": "Large",
-      "vegetarian": false
+      "size": "Medium",
+      "vegetarian": true
     },
     {
       "id": 2,
-      "topping": "Pepperoni",
+      "topping": "Pepperoni & Sausage",
       "size": "Small",
       "vegetarian": false
     },
     {
       "id": 3,
-      "topping": "Mushroom",
-      "size": "Small",
+      "topping": "Mushroom & Pineapple",
+      "size": "Medium",
       "vegetarian": true
     },
     {
       "id": 4,
-      "topping": "Sausage",
+      "topping": "Vegan Sausage",
       "size": "Small",
-      "vegetarian": false
+      "vegetarian": true
     },
     {
       "id": 5,
